@@ -1,5 +1,7 @@
 Autonomous Tic Tac Toe Playing Robot Arm
-Project Overview
+
+Project Overview:
+
 This project is a fascinating blend of artificial intelligence, robotics, and software development, aimed at creating an autonomous Tic Tac Toe playing robot arm. The robot is capable of playing Tic Tac Toe against human players in real-time, showcasing the integration of various technologies to achieve a seamless gaming experience.
 
 Key Components:
@@ -37,34 +39,27 @@ Software: React Native, Echo, Dobot Studio, Node.js, Arduino IDE
 Hardware: ESP8266 NodeMCU, Dobot Magician Lite
 
 Installation
+
 Clone the Repository:
 
-sh
+git clone https://github.com/Haru021122/Tic-tac-toe.git
 
-Copy
-git clone https://github.com/YourUsername/TicTacToeRobotArm.git
-cd TicTacToeRobotArm
+cd Tic-tac-toe
+
 Install Dependencies:
 
-sh
-
-Copy
 npm install
+
 Start the Server:
 
-sh
-
-Copy
 node server.js
+
 Running the App
+
 Start the React Native App:
 
-sh
+npx expo start
 
-Copy
-npx react-native run-android
-# or
-npx react-native run-ios
 Configure the ESP8266 NodeMCU:
 
 Upload the Arduino sketch to the ESP8266 to handle WiFi communication and move processing.
@@ -78,5 +73,7 @@ Use Dobot Studio to establish a serial connection with the Dobot Magician Lite.
 Ensure the Dobot Magician Lite executes moves based on the AI's decisions.
 
 Contributors
+
 Harman - Haru021122
+
 Anagha - AnuTris
